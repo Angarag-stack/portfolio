@@ -11,6 +11,14 @@ export function Hero() {
         years of experience in web development, I continue to find joy in
         crafting innovative solutions and designs.
       </p>
+      <div className="flex mt-12">
+        <img src="location.svg"></img>
+        <p>Ulaanbaatar, Mongolia</p>
+      </div>
+      <div className="flex">
+        <img src="dot.svg"></img>
+        <p> Available for new projects</p>
+      </div>
     </div>
   );
 }
