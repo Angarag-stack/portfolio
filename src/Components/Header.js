@@ -14,7 +14,7 @@ export const Header = () => {
 
 const HeaderMenuItems = () => {
   return (
-    <div className="border border-solid hidden lg:flex items-center gap-x-6">
+    <div className="border border-solid hidden lg:flex items-center gap-x-6   ">
       <p>About</p>
       <p>Testimonials</p>
       <p>Contact</p>
