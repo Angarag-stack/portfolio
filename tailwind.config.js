@@ -9,7 +9,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      listStyleType: {
+        none: "none",
+        disc: "disc",
+        decimal: "decimal",
+      },
+    },
   },
   plugins: [],
 };

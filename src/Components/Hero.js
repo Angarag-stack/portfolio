@@ -1,13 +1,13 @@
 export function Hero() {
   return (
-    <div className="container mx-auto md:flex md:flex-row-reverse md:gap-12">
+    <div className="container mx-auto md:flex md:flex-row-reverse md:gap-12 ">
       <div className="md:w-1/2">
         <img
-          className="w-60 h-64 mt-16  ml-auto mr-auto md:w-72 md:h-80 md:mr-4"
+          className="w-60 h-64 mt-16  ml-auto mr-auto md:w-72 md:h-80 md:mr-20"
           src="profile.png"
         />
       </div>
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 md:ml-20">
         <p className="text-4xl mt-12 ml-4 md:text-5xl"> Hi, I’m Tom 👋</p>
         <p className="text-base text-slate-600 ml-4 ">
           I specialize in full stack development, particularly with React.js and
