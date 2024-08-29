@@ -10,6 +10,7 @@ import Express from "@/Components/icons/Express";
 import Node from "@/Components/icons/Node";
 import Nest from "@/Components/icons/Nest";
 import Socket from "../Components/icons/Socket";
+import Experience from "@/Components/Experience";
 
 export default function Homepage() {
   return (
@@ -29,6 +30,7 @@ export default function Homepage() {
         <Nest />
         <Socket />
       </div>
+      <Experience />
     </div>
   );
 }

@@ -2,7 +2,7 @@ export function Skills() {
   return (
     <div>
       <div className=" flex justify-center">
-        <p className=" bg-slate-200  text-gray-600 w-[80px] h-[20px] text-sm rounded-xl text-center   mb-6">
+        <p className=" bg-slate-200  text-gray-600 w-[80px] h-[20px] text-sm rounded-xl text-center   mb-6 mt-16 py-0 px-5">
           Skills
         </p>
       </div>
